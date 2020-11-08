@@ -27,7 +27,13 @@ a {
     letter-spacing: 0.02ch;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 17px;
-    color: #fff;
+    color: #fff; 
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.link {
+    color: #000;
 }
 
 h1 {
@@ -109,7 +115,8 @@ td {
 .nav ul {
     list-style: none;
     margin: 0;
-    padding: 0;  
+    padding: 0;
+    color: #fff; 
 }
 
 .nav ul li {
@@ -217,11 +224,12 @@ code {
 
 .footer {
     display: block;
-    max-width: 40em;
     margin: 0 auto;
     bottom: 0;
-    margin-top: 18em;
-    margin-bottom: 3em;
+    padding: 3em;
+    padding-left: 25em;
+    margin-top: 20em;
+    background-color: #bc6c25;
 }
 
 .kmoms {
