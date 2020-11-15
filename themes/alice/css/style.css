@@ -6665,7 +6665,7 @@ h1 {
   word-spacing: 1em;
 }
 .footer a:hover {
-  color: blue;
+  color: #33a1de;
 }
 .footer a {
   font-size: 25px;
@@ -6737,7 +6737,7 @@ h4 {
 
   .footer .social.icon {
     margin: 0 auto;
-    padding: 1em 1em 1em 1em;
+    padding: 1em;
     display: inline-block;
     text-align: center;
   }

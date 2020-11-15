@@ -1,12 +1,13 @@
 ---
 Title: Home
 Description: This is our index page.
+
 ---
 
 
 ![flash-img](%assets_url%/img/skyimg.jpg){.flash-img}
 
-Home page
+Home page 
 ==========================
 
 
