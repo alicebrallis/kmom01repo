@@ -4,6 +4,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;600&display=swap');
 
 @import 'oldstyle';
@@ -18,4 +19,93 @@ h1 {
     font-weight: 400;
     text-align: left;
     font-size: 24px;
+}
+
+.footer {
+    background-color: #bc6c25;
+    
+    .social {
+        text-align: center;
+        word-spacing: 1em;
+    }   
+    
+    a:hover {
+        color: #33a1de;
+    }
+    
+    a {
+        font-size: 25px;
+    }
+}
+
+.nav {
+    font-weight: 100;
+    padding: 2em;
+    padding-left: 25em;
+    word-spacing: 1em;
+    display: block;
+    font-size: 20x;
+    background-color: #bc6c25;
+}
+
+p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 2.2em;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 17px;
+}
+
+.container {
+    padding-top: 2em;
+    max-width: 40em;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+}
+
+.footer {
+    display: block;
+    margin: 0 auto;
+    bottom: 0;
+    padding: 2em;
+    padding-left: 25em;
+    margin-top: 3em;
+    background-color: #bc6c25;
+}
+
+@media (max-width: 960px) {
+    .nav {
+        clear: both;
+        padding: 1em;
+    }
+
+    .nav ul {
+        padding: 2em;
+        display: inline-block;
+    }
+
+    .nav ul li {
+        display: inline-block;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .nav ul li a {
+        display: inline-block;
+        padding: 0.5em 0;
+    }
+
+    .footer .social.icon {
+        margin: 0 auto;
+        padding: 1em;
+        display: inline-block;
+        text-align: center;
+    }
 }

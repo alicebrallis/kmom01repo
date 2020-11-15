@@ -7,8 +7,8 @@ html {
 
 .me {
     width: 180px;
-    float: right;
-    margin: 100px 70px;
+    float: center;
+    margin: 0 auto;
     padding: 0.5px;
     overflow: auto;
 }
@@ -83,16 +83,6 @@ th {
     font-weight: 300;
 }
 
-
-.nav {
-    padding: 2em;
-    padding-left: 25em;
-    word-spacing: 1em;
-    display: block;
-    background-color: #bc6c25;
-}
-
-
 .nav ul {
     list-style: none;
     margin: 0;
@@ -102,7 +92,7 @@ th {
 
 .nav ul li {
     padding: 0;
-    font-weight: 300;
+    font-weight: 100;
     list-style-type: none;
 }
 
@@ -110,13 +100,9 @@ th {
     width: 2em;
     font-size: 1.5rem;
     line-height: 2em;
-    text-align: center;
     cursor: pointer;
 }
 
-.js .nav-toggle>* {
-    vertical-align: middle;
-}
 
 #nav-toggle {
     display: none;
@@ -125,17 +111,16 @@ th {
 
 ul {
     list-style-position: none;
-    margin: 0 auto;
-    display: block;
 }
 
 li {
     list-style-type: none;
     display: inline-block;
     font-size: 13px;
-    font-weight: 300;
+    font-weight: 100;
     line-height: 2em;
     text-transform: uppercase;
+    word-spacing: 2em;
 }
 
 .header {
@@ -146,13 +131,6 @@ li {
 header {
     display: block;
     margin: 0 auto;
-}
-
-.container {
-    max-width: 40em;
-    margin: 0 auto;
-    margin-top: 50px;
-    display: block;
 }
 
 .main {
@@ -200,16 +178,6 @@ code {
     border-radius: 0.2em;
     margin: 0 auto;
     padding-top: 20px;
-}
-
-.footer {
-    display: block;
-    margin: 0 auto;
-    bottom: 0;
-    padding: 3em;
-    padding-left: 25em;
-    margin-top: 20em;
-    background-color: #bc6c25;
 }
 
 .kmoms {
