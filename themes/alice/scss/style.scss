@@ -1,0 +1,21 @@
+@import '../../node_modules/normalize.css/normalize';
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;600&display=swap');
+
+@import 'oldstyle';
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+    line-height: 33px;
+    letter-spacing: 0.02ch;
+    font-weight: 400;
+    text-align: left;
+    font-size: 24px;
+}

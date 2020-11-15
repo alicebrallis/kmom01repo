@@ -17,7 +17,10 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-
+    <link rel="stylesheet" href="{{ theme_url }}/../shared/css/font-awsome.min.css" type="text/css" />
+    <!-- Insert font choice here -->
+    {# <link rel="stylesheet" href="{{ theme_url }}/../shared/css/dorid-sans.css" type="text/css" /> #}
+    <!-- End -->
     <link rel="stylesheet" href="{{ theme_url }}/css/style.css" type="text/css" />
 
 </head>
@@ -48,24 +51,6 @@
     </div>
        <footer>
     <div class="footer">
-  <div class="social">
-                <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
-                {% for social in pages["_meta"].meta.social %}
-                    <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-                        <i class="{{ social.icon }}" aria-hidden="true"></i>
-                        <span class="sr-only">{{ social.title }}</span>
-                    </a>
-                {% endfor %}
-            </div>
-     <div class="hello">
-                <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
-                {% for hello in pages["_meta"].meta.hello %}
-                    <a href="{{ hello.url }}" title="{{ hello.title }}" role="button">
-                        <i class="{{ hello.icon }}" aria-hidden="true"></i>
-                        <span class="sr-only">{{ hello.title }}</span>
-                    </a>
-                {% endfor %}
-            </div>
     <a href="https://github.com/alicebrallis/kmom01repo">Länk till kursrepot på Github</a>
     </div>
     </footer>
