@@ -1,9 +1,9 @@
 ---
 Title: Kmom01
-Description: Part 1
+Description: The course report page
 ---
 
-Kursmoment 1
+Kmom01
 ==================
 
 <h4>Har du jobbat med ramverk eller andra CMS:er tidigare?</h4>

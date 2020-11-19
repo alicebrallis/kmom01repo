@@ -1,18 +1,46 @@
 ---
 Title: Report
 Description: The course report page
+Template: report
 ---
 
-![flash-img](%assets_url%/img/skyimg.jpg){.flash-img}
-
-Redovisningssida för design
+Report 
 ==================
 
+<div class="kmom-box">
+<a href="#"><h4>Kmom01</h4>
+<p>Något om kursmomentet...</p>
+<a href="report/kmom01">Läs mer här</a></a></a>
+</div>
 
-[kmom01](report/kmom01){.kmoms}
-[kmom02](report/kmom02){.kmoms}
-[kmom03](report/kmom03){.kmoms}
-[kmom04](report/kmom04){.kmoms}
-[kmom05](report/kmom05){.kmoms}
-[kmom06](report/kmom06){.kmoms}
-[kmom10](report/kmom10){.kmoms}
+<div class="kmom-box">
+<a href="#"><h4>Kmom02</h4>
+<p>Något om kursmomentet...</p>
+<a href="report/kmom02">Läs mer här</a></a>
+</div>
+
+<div class="kmom-box">
+<a href="#"><h4>Kmom03</h4>
+<p>Något om kursmomentet...</p>
+<a href="report/kmom03">Läs mer här</a></a></a>
+</div>
+
+<div class="kmom-box">
+<a href="#"><h4>Kmom04</h4>
+<p>Något om kursmomentet...</p></a>
+</div>
+
+<div class="kmom-box">
+<a href="#"><h4>Kmom05</h4>
+<p>Något om kursmomentet...</p></a>
+</div>
+
+<div class="kmom-box">
+<a href="#"><h4>Kmom06</h4>
+<p>Något om kursmomentet...</p></a>
+</div>
+
+<div class="kmom-box project">
+<a href="#"><h4>Kmom10</h4>
+<p>Något om kursmomentet...</p></a>
+</div>

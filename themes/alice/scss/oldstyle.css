@@ -31,7 +31,10 @@ a {
 }
 
 .link {
-    color: #000;
+    color: #fff;
+    font-size: 14px;
+    padding-left: 2em;
+    text-transform: uppercase;
 }
 
 
@@ -74,6 +77,8 @@ p {
     font-weight: 300;
     line-height: 2em;
     display: block;
+    color: #000;
+    text-transform: none;
 }
 
 th {
@@ -131,16 +136,6 @@ li {
 header {
     display: block;
     margin: 0 auto;
-}
-
-.main {
-    margin: 0 auto;
-    display: block;
-}
-
-main {
-    margin-top: 30px;
-    
 }
 
 .site-footer {

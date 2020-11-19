@@ -6489,7 +6489,10 @@ a {
 }
 
 .link {
-  color: #000;
+  color: #fff;
+  font-size: 14px;
+  padding-left: 2em;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -6531,6 +6534,8 @@ p {
   font-weight: 300;
   line-height: 2em;
   display: block;
+  color: #000;
+  text-transform: none;
 }
 
 th {
@@ -6588,15 +6593,6 @@ header {
   margin: 0 auto;
 }
 
-.main {
-  margin: 0 auto;
-  display: block;
-}
-
-main {
-  margin-top: 30px;
-}
-
 .site-footer {
   max-width: 40em;
   display: block;
@@ -6645,6 +6641,40 @@ code {
   border-bottom: 1px solid #bc6c25;
 }
 
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+  padding: 0 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kmom-box a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+@media (max-width: 767px) {
+  .landingpage h1,
+.kmom-box,
+.kmom-box.project {
+    grid-column: span 4;
+  }
+}
 * {
   font-family: "Work Sans", sans-serif;
 }
@@ -6661,14 +6691,16 @@ h1 {
   background-color: #bc6c25;
 }
 .footer .social {
-  text-align: center;
-  word-spacing: 1em;
+  word-spacing: 10em;
+  padding-bottom: 2em;
 }
 .footer a:hover {
   color: #33a1de;
 }
 .footer a {
-  font-size: 25px;
+  font-size: 17px;
+  float: left;
+  word-spacing: 2px;
 }
 
 .nav {
@@ -6693,6 +6725,7 @@ h1 {
 
 h4 {
   font-size: 17px;
+  color: #000;
 }
 
 .container {
