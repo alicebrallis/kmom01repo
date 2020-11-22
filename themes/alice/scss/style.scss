@@ -9,6 +9,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 @import 'oldstyle';
 @import 'report';
+@import 'typography';
+@import 'layout';
 
 
 * {
@@ -45,7 +47,7 @@ h1 {
 .nav {
     font-weight: 100;
     padding: 2em;
-    padding-left: 25em;
+    padding-left: 20em;
     word-spacing: 1em;
     display: block;
     font-size: 20x;
@@ -69,7 +71,7 @@ h4 {
 
 .container {
     padding-top: 2em;
-    max-width: 40em;
+    max-width: 50em;
     margin: 0 auto;
     margin-top: 50px;
     display: block;

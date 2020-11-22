@@ -8,39 +8,43 @@ Report
 ==================
 
 <div class="kmom-box">
-<a href="#"><h4>Kmom01</h4>
+<a href="#">Kmom01</a>
 <p>Något om kursmomentet...</p>
-<a href="report/kmom01">Läs mer här</a></a></a>
+<a href="report/kmom01">Läs mer här</a>
 </div>
 
 <div class="kmom-box">
-<a href="#"><h4>Kmom02</h4>
+<a href="#">Kmom02</a>
 <p>Något om kursmomentet...</p>
-<a href="report/kmom02">Läs mer här</a></a>
+<a href="report/kmom02">Läs mer här</a>
 </div>
 
 <div class="kmom-box">
-<a href="#"><h4>Kmom03</h4>
+<a href="#">Kmom03</a>
 <p>Något om kursmomentet...</p>
-<a href="report/kmom03">Läs mer här</a></a></a>
+<a href="report/kmom03">Läs mer här</a>
 </div>
 
 <div class="kmom-box">
-<a href="#"><h4>Kmom04</h4>
-<p>Något om kursmomentet...</p></a>
+<a href="#">Kmom04</a>
+<p>Något om kursmomentet...</p>
+<a href="report/kmom04">Läs mer här</a>
 </div>
 
 <div class="kmom-box">
-<a href="#"><h4>Kmom05</h4>
-<p>Något om kursmomentet...</p></a>
+<a href="#">Kmom05</a>
+<p>Något om kursmomentet...</p>
+<a href="report/kmom05">Läs mer här</a>
 </div>
 
 <div class="kmom-box">
-<a href="#"><h4>Kmom06</h4>
-<p>Något om kursmomentet...</p></a>
+<a href="#">Kmom06</a>
+<p>Något om kursmomentet...</p>
+<a href="report/kmom06">Läs mer här</a>
 </div>
 
-<div class="kmom-box project">
-<a href="#"><h4>Kmom10</h4>
-<p>Något om kursmomentet...</p></a>
+<div class="kmom-box">
+<a href="#">Projekt</a>
+<p>Något om kursmomentet...</p>
+<a href="report/projekt">Läs mer här</a>
 </div>
