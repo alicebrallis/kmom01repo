@@ -6595,33 +6595,26 @@ code {
   text-align: center;
   font-size: 17px;
   font-weight: 400;
+  padding-top: 0.7em;
 }
 
 a:hover {
-  color: #bc6c25;
+  color: #000fff;
 }
 
 .kmom-box p {
-  line-height: 1.5em;
+  line-height: 2em;
   color: #000;
   text-align: center;
-  font-size: 16.5px;
-  font-weight: 300;
-  padding-top: 0.2em;
-  padding-bottom: 0.3em;
+  font-size: 17px;
+  font-weight: 400;
+  padding-top: 0.7em;
 }
 
 .kmom-box.project {
-  grid-column: span 1;
+  grid-column: span 3;
 }
 
-@media (max-width: 767px) {
-  .landingpage h1,
-.kmom-box,
-.kmom-box.project {
-    grid-column: span 4;
-  }
-}
 .reportpage {
   margin-top: 10px;
 }
@@ -6634,7 +6627,7 @@ a:hover {
 }
 
 .reportpage a:hover {
-  color: #bc6c25;
+  color: #000fff;
 }
 
 .kmom-boxen {
@@ -6654,10 +6647,11 @@ a:hover {
   display: grid;
   flex-direction: column;
   grid-column: span 1;
-  padding: 0em 4em 0em 4em;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
-.kmoms h4, p {
+.kmoms h4 p {
   text-transform: initial;
 }
 
@@ -6671,6 +6665,13 @@ a:hover {
 
   .kmom-boxen {
     display: none;
+  }
+}
+@media (max-width: 767px) {
+  .landingpage h1,
+.kmom-box,
+.kmom-box.project {
+    grid-column: span 4;
   }
 }
 h2 {
