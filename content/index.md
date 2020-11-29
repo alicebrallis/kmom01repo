@@ -7,8 +7,8 @@ Description: This is our index page.
 
 ![flash-img](%assets_url%/img/skyimg.jpg){.flash-img}
 
-Home page 
-==========================
+<h2>Home page</h2>
+
 
 
 

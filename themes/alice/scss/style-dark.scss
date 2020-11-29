@@ -1,17 +1,9 @@
-@import '../../node_modules/normalize.css/normalize';
-@import '../../shared/fontawesome/scss/fontawesome';
-$fa-font-path: '../../shared/fontawesome/webfonts';
-@import '../../shared/fontawesome/scss/brands';
-@import '../../shared/fontawesome/scss/solid';
-@import '../../shared/fontawesome/scss/regular';
-
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;600&display=swap');
-
+@import 'variables-dark';
 @import 'oldstyle';
-@import 'variables';
 @import 'typography';
 @import 'layout';
-@import 'report';
+@import 'report-style-dark';
+
 
 
 * {
@@ -30,8 +22,18 @@ h1 {
     font-size: 24px;
 }
 
+a {
+    text-decoration: none;
+    opacity: 90%;
+    letter-spacing: 0.02ch;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #000;
+}
+
 .footer {
-    background-color: #bc6c25;
+    background-color: #da8a44;
     
     .social {
         word-spacing: 10em;
@@ -39,7 +41,7 @@ h1 {
     }   
     
     a:hover {
-        color: #33a1de;
+        color: #fff;
     }
     
     a {
@@ -56,7 +58,7 @@ h1 {
     word-spacing: 1em;
     display: block;
     font-size: 20x;
-    background-color: #bc6c25;
+    background-color: #da8a44;
 }
 
 p {
@@ -68,17 +70,18 @@ p {
 
 h1 {
     font-size: 20px;
+    color: #f8eadd;
 }
 
 h2 {
-    border-bottom: 0.2px solid #e19f66;
     padding-bottom: 1em;
-    color: #000;
+    color: #fff;
+    font-weight: 400;
 }
 
 h4 {
     font-size: 17px;
-    color: #000;
+    color: #f8eadd;
 }
 
 .container {
@@ -96,7 +99,6 @@ h4 {
     padding: 2em;
     padding-left: 25em;
     margin-top: 3em;
-    background-color: #bc6c25;
 }
 
 @media (max-width: 960px) {
@@ -129,17 +131,6 @@ h4 {
     }
 }
 
-a {
-    text-decoration: none;
-    opacity: 90%;
-    letter-spacing: 0.02ch;
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #fff;
-}
-
 .fyndiq {
     width: 120%;
 }
-

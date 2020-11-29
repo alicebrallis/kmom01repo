@@ -4,10 +4,8 @@ Description: Markdown examples.
 # hidden: true
 ---
 
-![flash-img](%assets_url%/img/skyimg.jpg){.flash-img}
+<h2>Theme Styling Test</h2>
 
-Theme Styling Test
-==================
 
 This is `theme.md` in Pico's content directory. This page doesn't show up in the website's menu due to `hidden: true` in the page's YAML header. The purpose of this page is to aid theme development - below you'll find basically every format that is possible with Markdown. If you develop a theme, you should make sure that all examples below show decent.
 

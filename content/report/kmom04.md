@@ -20,15 +20,20 @@ Template: kmom
 
 <h1>Kmom04</h1>
 
-<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h4> 
-<p>Pellentesque semper eu ex at fermentum. Praesent blandit lorem at diam tincidunt, vel tempus massa facilisis. Phasellus varius vel ligula id consectetur.</p>
-<h4>In finibus mollis ante et rhoncus. Vivamus porta aliquet metus et sodales?</h4><p>Aliquam posuere nunc tortor, vitae tristique nisl auctor ac. Phasellus euismod tempus molestie. Curabitur eleifend eu mauris vitae consequat.</p>
-<h4>Suspendisse potenti. Pellentesque varius, felis id porta sodales, felis lacus varius odio, vitae gravida odio nibh quis ante?</h4> 
-<p>Mauris et massa at libero lobortis dignissim eu ac magna. Suspendisse potenti. Donec ultricies euismod est, id blandit quam tempus quis. Donec tincidunt mi quis lectus posuere scelerisque.</p> 
-<h4>Proin rutrum placerat felis, ac fermentum leo vulputate vitae?</h4>
-<p>Phasellus nisl mi, dignissim et ipsum vitae, eleifend consequat leo. Donec consectetur sodales nisl, dictum commodo neque luctus quis. Pellentesque faucibus rutrum diam. Aliquam fermentum elit mauris.</p> 
-<h4>Ut at odio et neque pulvinar elementum sit amet quis massa. Fusce malesuada dapibus purus, vitae blandit arcu cursus pellentesque?</h4> 
-<p>Nullam rhoncus tincidunt hendrerit. Vestibulum ut elementum libero. Aenean congue porttitor eros vel interdum. Mauris ut mollis metus. Sed massa justo, pretium vel facilisis et, tincidunt vel ante.</p> 
+
+
+<h4>Kommentera kort om skrivuppgiften, något som är värt att nämna från arbetet med den?</h4>
+<p>Jag tyckte det var intressant att reflektera över hur färgerna användes på webbsidor. Man inser hur mycket arbete som krävs bara att välja färgpalett och få en färgpalett att fungera på ett bra sätt. </p>
+<h4>Vilket färgschema valde du till ditt tema och hur valde du att använda färgerna (mer eller mindre eller lika mycket av alla färger)?</h4>
+<p>Jag valde färgschemat complementary och jag utgick från basfärgen jag använder i min navigering både i det ljusa och det mörka temat. </p>
+<h4>Valde du att jobba med accentfärg och isåfall hur?</h4>
+<p>Nej.</p>
+<h4>Hur valde du att lösa ditt dark theme? Gjorde du en kopia på ditt vanliga tema? Eller löste du det med imports?</h4>
+<p>Jag gjorde en kopia av mitt vanliga tema och utgick från det. </p>
+<h4>Vilken är din TIL för detta kmom?</h4>
+<p>Mitt TIL för detta kmom är att välja färg är svårt och det kräver mer arbete bakom än vad man tror. Tycker det var särskilt svårt för mitt mörka tema att få texten läsbar mot den mörka bakgrunden. Samtidigt är jag inte jättenöjd med resultatet. Jag tycker mina bakgrundsfärg för min navigering och footer är oklar och jag hade valt en annan färg om jag hade haft mer tid. Hade också skapat mer färgkontrast mellan bakgrundsfärgen och texten i min navigering. </p>
+
+
 
 
 

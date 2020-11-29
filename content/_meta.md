@@ -11,4 +11,10 @@ Social:
     - title: Link till sidans github repo.
       url: http://localhost:8080/dbwebb/design/me/portfolio/report
       icon: fas fa-envelope-open-text
+    - title: Destroy Session
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Dark Mode
+      url: ?action=session_destroy
+      icon: fas fa-trash
 ---

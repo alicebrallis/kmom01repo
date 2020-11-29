@@ -4,8 +4,6 @@ Description: Documentation that came with Pico.
 # hidden: true
 ---
 
-![flash-img](%assets_url%/img/skyimg.jpg){.flash-img}
-
 ## Welcome to Pico
 
 Congratulations, you have successfully installed [Pico][] %version%.
