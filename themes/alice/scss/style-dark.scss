@@ -3,6 +3,7 @@
 @import 'typography';
 @import 'layout';
 @import 'report-style-dark';
+@import 'gallery';
 
 
 
@@ -36,8 +37,10 @@ a {
     background-color: #da8a44;
     
     .social {
-        word-spacing: 10em;
-        padding-bottom: 2em;
+        padding-left: 15em;
+        padding-bottom: 4em;
+        letter-spacing: 4em;
+        margin-left: 10em;
     }   
     
     a:hover {
@@ -57,7 +60,7 @@ a {
     padding-left: 20em;
     word-spacing: 1em;
     display: block;
-    font-size: 20x;
+    font-size: 19x;
     background-color: #da8a44;
 }
 
@@ -70,18 +73,19 @@ p {
 
 h1 {
     font-size: 20px;
-    color: #f8eadd;
+    color: #fff;
 }
 
 h2 {
     padding-bottom: 1em;
     color: #fff;
     font-weight: 400;
+    border-bottom: 0.2px solid #da8a44;
 }
 
 h4 {
     font-size: 17px;
-    color: #f8eadd;
+    color: #fff;
 }
 
 .container {
@@ -96,7 +100,7 @@ h4 {
     display: block;
     margin: 0 auto;
     bottom: 0;
-    padding: 2em;
+    padding: 1em;
     padding-left: 25em;
     margin-top: 3em;
 }
@@ -133,4 +137,20 @@ h4 {
 
 .fyndiq {
     width: 120%;
+}
+
+.imgsocialmedia {
+    width: 100%;
+    border: 2px solid rgb(128, 128, 128);
+}
+
+.alink {
+    color: #fff;
+}
+
+.me {
+    width: 30%;
+    border-radius: 0.2em;
+    margin-left: 13em;
+    padding: 60px;
 }

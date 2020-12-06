@@ -42,10 +42,19 @@
         </ul>
     </div> 
     <div class="main" id="main" role="main">
-        {{ dump( config.session )}}
-        <div class="container">
-            {{ content }}
-        
+       <div class="gallery">
+        {% for image in meta.images %}
+        <a href="{{ base_url }}/image/{{ image.url }}" target="_blank">
+        <div>
+
+        <picture>
+            <source media="(min-width: 668px)" srcset="{{ base_url }}/image/{{ image.url }}">
+            <source media="(min-width: 376px)" srcset="{{ base_url }}/image/{{ image.url }}&w=667">
+        <img src="{{ base_url }}/image/{{ image.url }}&w=375" alt="{{ image.alt }}" class="imggallery">
+    </picture>
+        </div>
+        {% endfor %}
+       
         </div>
     </div>
     <div class="footer">
@@ -53,7 +62,7 @@
             <div class="social">
                 {% for social in pages["_meta"].meta.social %}
                     <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-                        <i class="{{ social.icon }}" aria-hidden="true" class="social.icon"></i>
+                        <i class="{{ social.icon }}" aria-hidden="true"></i>
                         <span class="sr-only">{{ social.title }}</span>
                     </a>
                 {% endfor %}
