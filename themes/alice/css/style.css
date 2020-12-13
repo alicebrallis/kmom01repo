@@ -13061,12 +13061,11 @@ p {
   float: center;
   margin: 0 auto;
   padding: 0.5px;
-  overflow: auto;
 }
 
 body {
-  margin: 0 auto;
   min-height: 10em;
+  width: 100%;
 }
 
 .header {
@@ -13078,10 +13077,18 @@ header {
   margin: 0 auto;
 }
 
+.container {
+  padding-top: 2em;
+  max-width: 40em;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+}
+
 .landingpage {
   display: grid;
-  gap: 1em 1em;
-  max-width: 50em;
+  gap: 0.8em 0.8em;
+  max-width: 40em;
   margin: 0 auto;
 }
 
@@ -13090,7 +13097,12 @@ header {
   justify-self: left;
   text-transform: uppercase;
   margin-top: 5em;
+  margin-bottom: 1.5em;
   color: #000;
+  font-size: 19px;
+  padding-bottom: 1em;
+  border-bottom: 0.1px solid #E7B388;
+  width: 100%;
 }
 
 .kmom-box {
@@ -13099,13 +13111,11 @@ header {
   flex-direction: column;
   align-items: center;
   background-color: #f8e9dd;
-  padding: 2.7em;
-  margin-top: 1em;
-  border: 2px solid #f5dfcc;
+  padding: 2em;
+  border: 1px solid #DC9256;
 }
 
 .kmom-box a {
-  border-bottom: 1px solid #bc6c25;
   line-height: 2em;
   color: #000;
   text-align: center;
@@ -13118,13 +13128,17 @@ a:hover {
   color: #000fff;
 }
 
+a:hover p {
+  color: #000fff;
+}
+
 .kmom-box p {
+  border-bottom: 1px solid #DC9256;
   line-height: 2em;
   color: #000;
   text-align: center;
   font-size: 17px;
-  font-weight: 300;
-  padding-top: 0.7em;
+  font-weight: 400;
   letter-spacing: 0.02ch;
 }
 
@@ -13139,7 +13153,7 @@ a:hover {
 .reportpage a {
   color: #000;
   font-size: 17px;
-  border-bottom: 0.5px solid #bc6c25;
+  border-bottom: 0.5px solid #D98745;
   line-height: 2em;
 }
 
@@ -13165,7 +13179,6 @@ a:hover {
   flex-direction: column;
   grid-column: span 1;
   padding-left: 4em;
-  padding-right: 4em;
   color: #000;
 }
 
@@ -13232,7 +13245,6 @@ a:hover {
 
 .imggallery {
   width: 85%;
-  margin: 0px;
   border-radius: 0.7em;
   image-rendering: pixelated;
 }
@@ -13267,32 +13279,27 @@ h1 {
   font-size: 24px;
 }
 
-.footer {
-  background-color: #bc6c25;
-}
 .footer .social {
-  padding-left: 15em;
+  padding-top: 1em;
   padding-bottom: 4em;
   letter-spacing: 4em;
-  margin-left: 10em;
 }
 .footer a:hover {
-  color: #33a1de;
+  color: #000;
 }
 .footer a {
   font-size: 17px;
   float: left;
   word-spacing: 2px;
+  color: #fff;
 }
 
 .nav {
-  font-weight: 100;
   padding: 2em;
-  padding-left: 20em;
-  word-spacing: 1em;
   display: block;
-  font-size: 19x;
-  background-color: #bc6c25;
+  background-color: #99581E;
+  word-spacing: 1.9em;
+  text-align: center;
 }
 
 p {
@@ -13307,9 +13314,8 @@ h1 {
 }
 
 h2 {
-  border-bottom: 0.2px solid #e19f66;
+  border-bottom: 0.1px solid #E7B388;
   padding-bottom: 1em;
-  color: #000;
 }
 
 h4 {
@@ -13317,22 +13323,12 @@ h4 {
   color: #000;
 }
 
-.container {
-  padding-top: 2em;
-  max-width: 50em;
-  margin: 0 auto;
-  margin-top: 50px;
-  display: block;
-}
-
 .footer {
   display: block;
   margin: 0 auto;
   bottom: 0;
-  padding: 1em;
-  padding-left: 25em;
-  margin-top: 3em;
-  background-color: #bc6c25;
+  margin-top: 7em;
+  background-color: #99581E;
 }
 
 @media (max-width: 960px) {
@@ -13359,10 +13355,13 @@ h4 {
   }
 
   .footer .social.icon {
-    margin: 0 auto;
-    padding: 1em;
-    display: inline-block;
     text-align: center;
+    bottom: 0;
+  }
+
+  .footer a {
+    text-align: center;
+    bottom: 0;
   }
 }
 a {
@@ -13372,7 +13371,6 @@ a {
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #fff;
 }
 
 .fyndiq {
@@ -13380,7 +13378,7 @@ a {
 }
 
 .imgsocialmedia {
-  width: 70%;
+  width: 100%;
   border: 2px solid gray;
   margin: 0 auto;
 }
@@ -13394,4 +13392,49 @@ a {
   border-radius: 0.2em;
   margin-left: 13em;
   padding: 60px;
+}
+
+li a {
+  color: #fff;
+  font-size: 15.5px;
+  font-weight: 400;
+  letter-spacing: 0.05ch;
+}
+
+h6 {
+  color: #000;
+}
+
+dd {
+  color: #000;
+}
+
+h5 {
+  color: #000;
+}
+
+dd {
+  color: #000;
+}
+
+abbr {
+  color: #000;
+}
+
+legend {
+  color: #000;
+}
+
+label {
+  color: #000;
+}
+
+dt {
+  color: #000;
+}
+
+li a:hover {
+  color: #000;
+  border-bottom: 0.2px solid #000;
+  padding-bottom: 0.5em;
 }

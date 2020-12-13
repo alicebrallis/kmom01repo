@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="sv" class="no-js">
 <head>
    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -40,6 +40,7 @@
                 {% endfor %}
         </ul>
     </div> 
+    <div class="bordernav"></div>
     <div class="main" id="main" role="main">
         <div class="container">
         <div class="reportpage">{{ content }}</div>
@@ -49,11 +50,11 @@
    
      <div class="footer">
         <div class="container">
-        <a href="https://github.com/alicebrallis/kmom01repo">Länk till repot</a>
+        <div class="border"></div>
             <div class="social">
                 {% for social in pages["_meta"].meta.social %}
-                    <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-                        <i class="{{ social.icon }}" aria-hidden="true"></i>
+                    <a href="{{ social.url }}" title="{{ social.title }}" role="button" aria-label="btn">
+                        <i class="{{ social.icon }}" class="social.icon"></i>
                         <span class="sr-only">{{ social.title }}</span>
                     </a>
                 {% endfor %}

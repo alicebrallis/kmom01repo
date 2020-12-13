@@ -32,34 +32,30 @@ h1 {
 }
 
 .footer {
-    background-color: #bc6c25;
-    
     .social {
-        padding-left: 15em;
+        padding-top: 1em;
         padding-bottom: 4em;
         letter-spacing: 4em;
-        margin-left: 10em;
     }   
     
     a:hover {
-        color: #33a1de;
+        color: #000;
     }
     
     a {
         font-size: 17px;
         float: left;
         word-spacing: 2px;
+        color: #fff;
     }
 }
 
 .nav {
-    font-weight: 100;
     padding: 2em;
-    padding-left: 20em;
-    word-spacing: 1em;
     display: block;
-    font-size: 19x;
-    background-color: #bc6c25;
+    background-color: #99581e;
+    word-spacing: 1.9em;
+    text-align: center;
 }
 
 p {
@@ -74,9 +70,8 @@ h1 {
 }
 
 h2 {
-    border-bottom: 0.2px solid #e19f66;
+    border-bottom: 0.1px solid #e7b388;
     padding-bottom: 1em;
-    color: #000;
 }
 
 h4 {
@@ -84,22 +79,12 @@ h4 {
     color: #000;
 }
 
-.container {
-    padding-top: 2em;
-    max-width: 50em;
-    margin: 0 auto;
-    margin-top: 50px;
-    display: block;
-}
-
 .footer {
     display: block;
     margin: 0 auto;
     bottom: 0;
-    padding: 1em;
-    padding-left: 25em;
-    margin-top: 3em;
-    background-color: #bc6c25;
+    margin-top: 7em;
+    background-color: #99581e;
 }
 
 @media (max-width: 960px) {
@@ -126,10 +111,13 @@ h4 {
     }
 
     .footer .social.icon {
-        margin: 0 auto;
-        padding: 1em;
-        display: inline-block;
         text-align: center;
+        bottom: 0;
+    }
+
+    .footer a {
+        text-align: center;
+        bottom: 0;
     }
 }
 
@@ -140,7 +128,6 @@ a {
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #fff;
 }
 
 .fyndiq {
@@ -148,7 +135,7 @@ a {
 }
 
 .imgsocialmedia {
-    width: 70%;
+    width: 100%;
     border: 2px solid rgb(128, 128, 128);
     margin: 0 auto;
 }
@@ -162,4 +149,49 @@ a {
     border-radius: 0.2em;
     margin-left: 13em;
     padding: 60px;
+}
+
+li a {
+    color: #fff;
+    font-size: 15.5px;
+    font-weight: 400;
+    letter-spacing: 0.05ch;
+}
+
+h6 {
+    color: #000;
+}
+
+dd {
+    color: #000;
+}
+
+h5 {
+    color: #000;
+}
+
+dd {
+    color: #000;
+}
+
+abbr {
+    color: #000;
+}
+
+legend {
+    color: #000;
+}
+
+label {
+    color: #000;
+}
+
+dt {
+    color: #000;
+}
+
+li a:hover {
+    color: #000;
+    border-bottom: 0.2px solid #000;
+    padding-bottom: 0.5em;
 }

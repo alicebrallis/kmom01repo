@@ -30,38 +30,35 @@ a {
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
 }
 
 .footer {
-    background-color: #da8a44;
-    
     .social {
-        padding-left: 15em;
+        padding-top: 1em;
         padding-bottom: 4em;
         letter-spacing: 4em;
-        margin-left: 10em;
     }   
     
     a:hover {
-        color: #fff;
+        color: #a96223;
     }
     
     a {
         font-size: 17px;
         float: left;
         word-spacing: 2px;
+        color: #fff;
     }
 }
 
 .nav {
     font-weight: 100;
     padding: 2em;
-    padding-left: 20em;
-    word-spacing: 1em;
+    word-spacing: 1.9em;
     display: block;
     font-size: 19x;
-    background-color: #da8a44;
+    text-align: center;
 }
 
 p {
@@ -80,7 +77,11 @@ h2 {
     padding-bottom: 1em;
     color: #fff;
     font-weight: 400;
-    border-bottom: 0.2px solid #da8a44;
+    border-bottom: 0.2px solid #99581e;
+}
+
+h3 {
+    color: #fff;
 }
 
 h4 {
@@ -88,21 +89,28 @@ h4 {
     color: #fff;
 }
 
-.container {
-    padding-top: 2em;
-    max-width: 50em;
-    margin: 0 auto;
-    margin-top: 50px;
-    display: block;
-}
-
 .footer {
     display: block;
     margin: 0 auto;
     bottom: 0;
-    padding: 1em;
-    padding-left: 25em;
+}
+
+.border {
     margin-top: 3em;
+    border-bottom: 0.05px solid #a96223;
+    margin-bottom: 3em;
+}
+
+.bordernav {
+    border-bottom: 0.05px solid #a96223;
+}
+
+td {
+    color: #fff;
+}
+
+th {
+    color: #fff;
 }
 
 @media (max-width: 960px) {
@@ -128,10 +136,14 @@ h4 {
     }
 
     .footer .social.icon {
-        margin: 0 auto;
-        padding: 1em;
-        display: inline-block;
         text-align: center;
+        bottom: 0;
+    }
+
+    .footer a {
+        text-align: center;
+        bottom: 0;
+        color: #fff;
     }
 }
 
@@ -153,4 +165,60 @@ h4 {
     border-radius: 0.2em;
     margin-left: 13em;
     padding: 60px;
+}
+
+code {
+    color: #fff;
+}
+
+li {
+    color: #fff;
+}
+
+li a {
+    color: #fff;
+    font-size: 15.5px;
+    font-weight: 400;
+    letter-spacing: 0.05ch;
+}
+
+li a:hover {
+    border-bottom: 0.2px solid #a96223;
+    padding-bottom: 0.5em;
+}
+
+h6 {
+    color: #fff;
+}
+
+dd {
+    color: #fff;
+}
+
+h5 {
+    color: #fff;
+}
+
+dd {
+    color: #fff;
+}
+
+abbr {
+    color: #fff;
+}
+
+legend {
+    color: #fff;
+}
+
+label {
+    color: #fff;
+}
+
+dt {
+    color: #fff;
+}
+
+li a:hover {
+    color: #a96223;
 }

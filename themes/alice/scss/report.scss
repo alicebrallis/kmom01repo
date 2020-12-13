@@ -1,7 +1,7 @@
 .landingpage {
     display: grid;
-    gap: 1em 1em;
-    max-width: 50em;
+    gap: 0.8em 0.8em;
+    max-width: 40em;
     margin: 0 auto;
 }
 
@@ -10,7 +10,12 @@
     justify-self: left;
     text-transform: uppercase;
     margin-top: 5em;
+    margin-bottom: 1.5em;
     color: $font-color;
+    font-size: 19px;
+    padding-bottom: 1em;
+    border-bottom: 0.1px solid #e7b388;
+    width: 100%;
 }
 
 .kmom-box {
@@ -19,13 +24,11 @@
     flex-direction: column;
     align-items: center;
     background-color: #f8e9dd;
-    padding: 2.7em;
-    margin-top: 1em;
-    border: 2px solid #f5dfcc;
+    padding: 2em;
+    border: 1px solid #dc9256;
 }
 
 .kmom-box a {
-    border-bottom: 1px solid #bc6c25;
     line-height: 2em;
     color: $font-color;
     text-align: center;
@@ -38,13 +41,18 @@ a:hover {
     color: #000fff;
 }
 
+
+a:hover p {
+    color: #000fff;
+}
+
 .kmom-box p {
+    border-bottom: 1px solid #dc9256;
     line-height: 2em;
     color: $font-color;
     text-align: center;
     font-size: 17px;
-    font-weight: 300;
-    padding-top: 0.7em;
+    font-weight: 400;
     letter-spacing: 0.02ch;
 }
 
@@ -59,7 +67,7 @@ a:hover {
 .reportpage a {
     color: $font-color;
     font-size: 17px;
-    border-bottom: 0.5px solid #bc6c25;
+    border-bottom: 0.5px solid #d98745;
     line-height: 2em;
 }
 
@@ -86,7 +94,6 @@ a:hover {
     flex-direction: column;
     grid-column: span 1;
     padding-left: 4em;
-    padding-right: 4em;
     color: $font-color;
 }
 

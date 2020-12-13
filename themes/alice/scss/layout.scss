@@ -3,12 +3,11 @@
     float: center;
     margin: 0 auto;
     padding: 0.5px;
-    overflow: auto;
 }
 
 body {
-    margin: 0 auto;
     min-height: 10em;
+    width: 100%;
 }
 
 .header {
@@ -18,5 +17,13 @@ body {
 header {
     display: block;
     margin: 0 auto;
+}
+
+.container {
+    padding-top: 2em;
+    max-width: 40em;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
 }
 

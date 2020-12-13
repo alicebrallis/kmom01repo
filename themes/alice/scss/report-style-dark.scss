@@ -1,7 +1,7 @@
 .landingpage {
     display: grid;
-    gap: 1em 1em;
-    max-width: 50em;
+    gap: 0.8em 0.8em;
+    max-width: 40em;
     margin: 0 auto;
 }
 
@@ -13,6 +13,11 @@
     text-transform: uppercase;
     letter-spacing: 0.06ch;
     font-size: 19px;
+    padding-bottom: 1em;
+    font-weight: 400;
+    border-bottom: 0.2px solid #99581e;
+    width: 100%;
+    margin-bottom: 1.5em;
 }
 
 .kmom-box {
@@ -20,32 +25,29 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid #da8a44;
-    padding: 2.7em;
-    margin-top: 1em;
-    background-color: #ebbf99;
+    border: 1px solid #99581e;
+    padding: 2em;
 }
 
 .kmom-box a {
-    border-bottom: 2px solid #da8a44;
     line-height: 1.8em;
-    color: #000;
+    color: #fff;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
 }
 
 a:hover {
-    color: #fff;
+    color: #a96223;
 }
 
 .kmom-box p {
+    border-bottom: 1px solid #99581e;
     line-height: 2em;
-    color: #000;
+    color: #fff;
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 300;
-    padding-top: 0.7em;
     letter-spacing: 0.02ch;
 }
 
@@ -86,7 +88,6 @@ a:hover {
     flex-direction: column;
     grid-column: span 1;
     padding-left: 4em;
-    padding-right: 4em;
     color: $font-color;
 }
 
